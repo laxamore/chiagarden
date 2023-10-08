@@ -3,7 +3,7 @@
 #requirements
 #xfsprogs, smartmontools, ntfs-3g
 
-XFSOPTIONS="-f -b size=1024"
+XFSOPTIONS="-m crc=0 -f -b size=1024"
 EXT4OPTIONS="-F -m 0 -T largefile4"
 NTFSOPTIONS="-f"
 SERIALPREFIX="CHIA"
